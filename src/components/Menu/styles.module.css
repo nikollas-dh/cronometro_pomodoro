@@ -1,4 +1,4 @@
-.logo
+.menu
 {
     display:flex;
     align-items: center;
@@ -6,21 +6,21 @@
     gap: 2.4rem;
     padding-top:3.2rem;
 }
-.logoLink{
-    display: flex;
+.menuLink{
+    display: inline-flex;
     flex-direction: column;
     align-items: center;
-    font-weight: bold;
-    gap: 0.4rem;
-    font-size: 4.2rem;
+    justify-content: center;
+    background-color: var(--primary);
     text-decoration: none;
-    color: var(--primary);
+    color: var(--text-over-primary);
     transition: all 0.1s ease-in-out;
+    padding: 1.2rem;
 }
-.logoLink:hover{
+.menuLink:hover{
     filter: brightness(80%);
 }
-.logoLink svg{
+.menuLink svg{
     width: 6.4rem;
     height: 6.4rem;
 }
