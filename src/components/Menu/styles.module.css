@@ -5,6 +5,7 @@
     justify-content: center;
     gap: 2.4rem;
     padding-top:3.2rem;
+    padding-bottom: 5rem;
 }
 .menuLink{
     display: inline-flex;

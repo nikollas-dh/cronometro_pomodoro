@@ -1,0 +1,23 @@
+& - Instersection Type o que o componente
+aceita:
+Propriedades obrigatórias (id e labelText)
+TODAS as propriedades padrão que um
+lemento <input> nativo do HTML aceita(
+value, on Change, disabel, placeholder,
+step, etc);
+Aceita por causa do React.
+Component<'input'>
+
+... -> Spread Operator (espalhamento, Rest
+Parameters)
+Qual é o papel de ...
+no argumento ele funciona como rest,
+informa ao react "pegue todas as
+propriedades que sobrarem(que não são id,
+type ou labelText) "e coloque dentro de um
+objeto de rest
+no elemento <input>
+ele funcona como Spread =- pega todas as
+propiedades que estão dentro do objeto
+rest e as "espalha" como atributos
+individuais no input
