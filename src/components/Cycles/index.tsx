@@ -1,5 +1,4 @@
 import styles from './style.module.css'
-import {Circle} from 'lucide-react'
 export function Cycles(){
     return(
         <>

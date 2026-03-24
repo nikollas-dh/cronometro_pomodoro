@@ -3,12 +3,13 @@ import styles from './style.module.css'
 type DefaultProps = {
     id:string;
     labelText:string;
+    type:string;
 }&React.Component<'input'>;
 
 export function DefaultInput({
     id,
     type,
-    labelText = "task",
+    labelText,
     ...rest
 }:DefaultProps){ 
     return(
